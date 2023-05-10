@@ -46,8 +46,6 @@ def downloader():
     vbox_state = vidaud_bool.get()
     abox_state = aud_bool.get()
 
-    print(vbox_state)
-    print(abox_state)
     if (vbox_state == True):
         video_downloader(URLS)
     if (abox_state == True):
